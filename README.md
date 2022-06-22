@@ -34,8 +34,8 @@ https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification
 #### Tasks performed
 
 1. csv files created into dataframes
-2. New dataframes created based on only `ID` and `Disease Risk`
-3. Converted binary values of `Disease Risk` to string values
+2. New dataframes created based on only `ID` and `Disease_Risk`
+3. Converted binary values of `Disease_Risk` to string values
 4. Plotted bar plots of frequency of each retinal disease in each set
 5. Plotted bar plots of frequency of healthy and unhealthy retinas in each set
 
@@ -43,3 +43,15 @@ https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification
 
 1. the most common disease is Diabetic Retinopathy (D)R followed by Macular Hole (MH)
 2. the ratio of healthy to unhealthy retinal images is about 3.77
+
+### Classification of data
+
+#### Libraries used
+
+- os
+- shutil
+
+#### Tasks performed
+
+1. subdirectories `healthy` and `unhealthy` created for each set
+2. image sets iterated and segregated into respected subdirectories based on `Disease_Risk`
